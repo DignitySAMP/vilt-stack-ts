@@ -1,6 +1,5 @@
-import type { Page } from '@inertiajs/core'
-import type { Router } from '@inertiajs/core'
-import { createHeadManager } from '@inertiajs/vue3'
+import type { Page, Router } from '@inertiajs/core';
+import { createHeadManager } from '@inertiajs/vue3';
 
 // Extend ImportMeta interface for Vite...
 declare module 'vite/client' {
